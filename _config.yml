@@ -10,7 +10,8 @@ username: Kiamehr Rezaee
 user_description: PhD Student at Cardiff NLP!
 email: rezaeek@cardiff.ac.uk
 twitter_username: kiamehrrezaee
-github_username:  kiamehr74
+github_username: kiamehr74
+scholar_link: "https://scholar.google.com/citations?user=p2qTqJgAAAAJ&hl=en"
 # gplus_username:  lorem_ipsum
 # disqus_username: lorem_ipsum
 
@@ -18,7 +19,6 @@ github_username:  kiamehr74
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-
 
 # html minify
 compress_html:
@@ -40,4 +40,4 @@ links:
     url: /about
 
 # exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+exclude: ["package.json", "src", "node_modules"]
