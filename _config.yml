@@ -1,11 +1,11 @@
 # Site settings
-title: Kiamehr\'s Personal Page!
-description: Kiamehr\'s Personal Page!
+title: "Kiamehr's Personal Page!"
+description: "Kiamehr's Personal Page!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kiamehr.me" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Kiamehr Rezaee
+username: This is:
 user_description: PhD Student at Cardiff NLP!
 user_title: Kiamehr Rezaee
 email: rezaeek@cardiff.ac.uk
