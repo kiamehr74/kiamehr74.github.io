@@ -5,9 +5,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kiamehr.me" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: This is
+user_heading: This is
+username: Kiamehr Rezaee
 user_description: PhD Student at Cardiff NLP!
-user_title: Kiamehr Rezaee
 email: rezaeek@cardiff.ac.uk
 twitter_username: kiamehrrezaee
 github_username:  kiamehr74
