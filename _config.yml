@@ -1,6 +1,6 @@
 # Site settings
-title: Kiamehr Personal Page!
-description: Kiamehr Personal Page!
+title: Personal Page
+description: Personal Page
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kiamehr.me" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
