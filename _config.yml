@@ -2,7 +2,7 @@
 title: Personal Page
 description: Personal Page
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://kiamehr.me" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://kiamehr.me" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 user_heading: This is
