@@ -1,0 +1,43 @@
+# Site settings
+title: Personal Page
+description: Personal Page
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kiamehr.me" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+user_heading: This is
+username: Kiamehr Rezaee
+user_description: PhD Student at Cardiff NLP!
+email: rezaeek@cardiff.ac.uk
+twitter_username: kiamehrrezaee
+github_username: kiamehr74
+scholar_link: "https://scholar.google.com/citations?user=p2qTqJgAAAAJ&hl=en"
+# gplus_username:  lorem_ipsum
+# disqus_username: lorem_ipsum
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Publications
+    url: /publications
+  - title: Tags
+    url: /tags
+#  - title: About Me
+#    url: /about
+
+# exclude my node related stuff
+exclude: ["package.json", "src", "node_modules"]
