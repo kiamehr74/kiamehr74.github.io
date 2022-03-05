@@ -12,11 +12,11 @@ author:
   name: "Kiamehr Rezaee"
   email: rezaeek@cardiff.ac.uk
   twitter_username: kiamehrrezaee
-  #  facebook_username: joshgerdes
+  #  facebook_username:
   github_username: kiamehr74
-  linkedin_username: thomas-zühlke-889182165
+  # linkedin_username:
   scholar_page: https://scholar.google.com/citations?user=p2qTqJgAAAAJ&hl=en
-  meetup_name: Azure-Meetup-Rostock-MV
+  # meetup_name: Azure-Meetup-Rostock-MV
 
 # Build settings
 destination: _site
