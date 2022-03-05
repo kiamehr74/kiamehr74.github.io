@@ -1,5 +1,6 @@
 _site
 .sass-cache
+.jekyll-chache
 node_modules
 _drafts
 old
