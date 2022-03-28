@@ -7,33 +7,46 @@ robots: noindex
 
   <ul class="timeline">
     
-    {% for project in site.data.projects %}
+    {% for milestone in site.data.timeline %}
 
       <li class="timeline-inverted">
         <div class="timeline-image">
-          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+          <img class="img-me" src="{{ milestone.img | prepend: site.baseurl }}" alt="">
         </div>
         <div class="timeline-panel">
           <div class="timeline-heading">
-            <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
+            <!-- <h4><a href="https://github.com/{{ milestone.gh_user }}/{{ milestone.repo }}" target="_blank">{{ milestone.name }}</a></h4> -->
+            <h4>{{ milestone.name }}</h4>
           </div>
           <div class="timeline-body">
-            {% if project.desc %}
-              {{ project.desc | markdownify }}
+            
+            {% if milestone.desc %}
+              {{ milestone.desc | markdownify }}
             {% else %}
-            <div repotext="{{ project.repo }}">
+            <div repotext="{{ milestone.repo }}">
               <span class="desc"></div>
             </div>
             {% endif %}
-            <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>
+            <div class="info">
+              {% if milestone.date %}
+              <ul style="list-style: none; margin: 0">
+                <li><i class="fa fa-calendar"></i>   {{ milestone.date }}</li>
+              </ul>
+              {% endif %}
+            </div>
+
+            <!-- <div user="{{ milestone.gh_user }}" repo="{{ milestone.repo }}" class="ghbtn" style="margin-top: 10px;">
+              <a target="_blank" href="https://github.com/{{ milestone.gh_user }}/{{ milestone.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ milestone.gh_user }}/{{ milestone.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ milestone.gh_user }}/{{ milestone.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>
               <div style="height: 10px;"></div>
-          </div>
+          </div> -->
         </div>
       </li>
     {% endfor %}
+
+
+
     <!--
     <li class="timeline-inverted">
       <div class="timeline-image">
