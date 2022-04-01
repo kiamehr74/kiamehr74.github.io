@@ -1,21 +1,38 @@
 # Tieline data
+- name: Moving to Cardiff
+  desc: Started my new journey in lovely Cardiff!
+  img: /images/cardiff.jpg
+  date: 2022.Mar.16
+
 - name: PhD at Cardiff University
-  desc: Started my PhD in Cardiff NLP group under supervision of Dr. Jose Camacho-Collados!
-  # gh_user: tzuehlke
-  # repo: AzureFunction-TimeoutCheck
-  # img: /images/kiamehr.png
+  desc: Started my PhD in Cardiff NLP group under supervision of <a href="http://josecamachocollados.com"> Dr. Jose Camacho-Collados! </a>
   img: /images/Cardiff-University-logo.jpg
   date: 2022.Dec.1
 
+- name: Teaching Assistant at <a href=""> TEIAS </a>
+  desc: Designed and instructed <a href="https://github.com/iust-deep-learning/tensorflow-2-tutorial"> a TensorFFlow 2.0 tutorial </a> for a deep learning course instructed by <a href="http://pilehvar.github.io"> Dr. Taher Pilehvar </a>
+  img: /images/teias.jpeg
+  date: 2020.Apr.01
 
-- name: Doing my MSc in IUST
-  # gh_user: tzuehlke
-  # repo: scripts
-  #img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
-  img: https://docs.microsoft.com/de-de/powershell/media/index/ps_black_128.svg
-  # desc: Some scripts that I used with Azure Automation. For example a VM Start/Stop script or a script for resetting a VPN tunnel.
+# - name: First EACL Publication
+#   desc: WiC-TSV':' An evaluation benchmark for target sense verification of words in context
+#   img: /images/iust.png
+#   date: 2018.Sep.23
 
+- name: MSc at IUST
+  desc: Started my masters's at Iran University of Science and Technology (IUST) under supervision of <a href="http://pilehvar.github.io"> Dr. Taher Pilehvar </a>
+  img: /images/iust.png
+  date: 2018.Sep.23
 
+- name: Internship at IPM
+  desc: Taking my first baby steps towards AI and ML! Learned a lot about neural networks.
+  img: /images/IPM.jpeg
+  date: 2016.Jul.11
+
+- name: BSc at IUST
+  desc: Started my bachelor's at Iran University of Science and Technology (IUST) under supervision of <a href="https://scholar.google.com/citations?user=l3D_gCAAAAAJ&hl=en"> Dr. Vesal Hakami </a>
+  img: /images/iust.png
+  date: 2014.Sep.23
 
 #   gh_user: tzuehlke
 #   repo: scripts
